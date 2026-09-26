@@ -1,0 +1,28 @@
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Banner Banner Banner Banner Banner Banner Banner Banner Banner Banner Banner Banner"
+    ". Menu Menu Menu Menu Menu Menu Menu Menu Menu Menu ."
+    ". info_persona info_persona info_persona info_persona info_persona info_persona info_persona info_persona redes redes ."
+    ". skills skills skills skills skills skills skills skills redes redes ."
+    ". footer footer footer footer footer footer footer footer footer footer .";
+}
+
+.Banner { grid-area: Banner; }
+
+.Menu { grid-area: Menu; }
+
+.info_persona { grid-area: info_persona; }
+
+.skills { grid-area: skills; }
+
+.footer { grid-area: footer; }
+
+.redes { grid-area: redes; }
+
+div{
+    border: 1px solid red;
+}

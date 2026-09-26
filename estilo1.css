@@ -1,0 +1,97 @@
+
+#estatico {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background: red;
+    left: 10px;
+    top: 100px;
+}
+
+#absoluto {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    left: 10px;
+    top: 220px;
+}
+
+#Fijo {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    left: 10px;
+    top: 340px;
+}
+
+#relativo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: lime;
+    left: 10px;
+    top: 500px;
+}
+
+#float {
+    position: float;
+    width: 100px;
+    height: 100px;
+    background: mediumpurple;
+    left: 10px;
+    top: 600px;
+}
+
+div {
+    display: inline;
+    float: left;
+    margin: 10px;
+    padding: 2px;
+    border: 2px solid #4014a6;
+    width: 200px;
+    height: 200px;
+    font: 18px Arial;
+}
+
+#vis1 {
+    overflow: hidden;
+}
+
+#vis2 { 
+    overflow: scroll;
+}   
+/* 
+body { 
+    font-family: Arial;
+    color: navy;
+}
+
+#titulo {  
+    color: blue;
+}
+
+.esp { 
+    color: bisque;
+}
+
+#nombre {
+    font-family: Verdana !important;
+    font-size: 20px;
+}
+
+input [type="pasword"]{ 
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #f1287f;
+}
+
+div p { 
+    color: rgb(52, 106, 254);
+}
+
+div,p { 
+    color: hsl(224, 99%, 60%);
+}
+
